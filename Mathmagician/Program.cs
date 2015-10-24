@@ -19,6 +19,7 @@ namespace Mathmagician
                 Console.WriteLine("How many?");
                 Console.Write(prompt);
                 string response_length = Console.ReadLine();
+                Console.WriteLine("Cool, I'm going to print " + response_length + " " + response);
                 int length;
                 bool parsed = int.TryParse(response_length, out length);
                 if (parsed)
