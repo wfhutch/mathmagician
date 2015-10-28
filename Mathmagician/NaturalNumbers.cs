@@ -18,14 +18,14 @@ namespace Mathmagician
             increment = 1;
         }
 
-        public virtual int GetNext(int x)
-        {
-            return x + increment;
-        }
-
         public int GetFirst()
         {
             return first;
+        }
+
+        public virtual int GetNext(int x)
+        {
+            return x + increment;
         }
 
         public int[] GetSequence()

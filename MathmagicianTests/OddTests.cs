@@ -45,7 +45,7 @@ namespace MathmagicianTests
         }
 
         [TestMethod]
-        public void EvenShouldPrintAVariableSequenceOfNumbers()
+        public void OddShouldPrintAVariableSequenceOfNumbers()
         {
             OddNumbers odd = new OddNumbers();
             int input = 8;
